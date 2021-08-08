@@ -40,7 +40,7 @@ int main()
     for(int i=0; i<n; i++) cin>>ary[i];
     cin>>key;
 
-       cout<<"Recursion: 1"<<endl<<"Iterative: 2";
+       cout<<"Recursion: 1"<<endl<<"Iterative: 2"<<endl;
        int t; cin>>t;
        if(t==1){
             int flag = recursion(ary, 0, n, key);
